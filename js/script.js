@@ -7,7 +7,7 @@ document.addEventListener("click", function (event) {
 if(event.target.closest('.contacts__title')){
     contactsContainer.classList.toggle('_active');
 }
-if (!event.target.closest('.contacts__contacts')) {
+if (!event.target.closest('.aside__contacts')) {
     contactsContainer.classList.add('_active');
 }
 });
@@ -19,7 +19,7 @@ document.addEventListener("click", function (event) {
 if(event.target.closest('.social__title')){
     socialContainer.classList.toggle('_active');
 }
-if (!event.target.closest('.contacts__social ')) {
+if (!event.target.closest('.aside__contacts ')) {
     socialContainer.classList.add('_active');
 }
 });
@@ -32,7 +32,7 @@ document.addEventListener("click", function (event) {
 if(event.target.closest('.skills__title')){
     skillsContainer.classList.toggle('_active');
 }
-if (!event.target.closest('.aside__skills')) {
+if (!event.target.closest('.aside__contacts')) {
     skillsContainer.classList.add('_active');
 }
 });
